@@ -1,0 +1,16 @@
+{
+    "name": "com.unityexampls.primordial-mold_editor",
+    "rootNamespace": "QuixoticTools.PrimordialMold",
+    "references": [
+        "GUID:e4165bca33136244e8a427007c2e470f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

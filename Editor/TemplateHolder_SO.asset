@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a2a45d3cb381f4593e0fb08faea8cc, type: 3}
+  m_Name: TemplateHolder_SO
+  m_EditorClassIdentifier: 
+  Templates:
+  - Caption: Mono Behaviour
+    FileName: NewMonoBehaviour
+    RAW_Text: "using UnityEngine;\n\n#ROOTNAMESPACEBEGIN#\npublic class #SCRIPTNAME#
+      : MonoBehaviour\n{\n\t#NOTRIM#\n}\n#ROOTNAMESPACEEND#"
+    FileType:
+      Caption: C#
+      Extension: .cs
+    RunDefaultScriptParsing: 1
+    RunExtendedScriptParsing: 1
+    ForceSpacesToTabs: 1
+    KeywordReplace: []
+  - Caption: New Class
+    FileName: NewClass
+    RAW_Text: "#ROOTNAMESPACEBEGIN#\n\tpublic class #SCRIPTNAME#\r\n\t{\r\n\t\t#NOTRIM#\n\t}\r\n#ROOTNAMESPACEEND#"
+    FileType:
+      Caption: C#
+      Extension: .cs
+    RunDefaultScriptParsing: 1
+    RunExtendedScriptParsing: 1
+    ForceSpacesToTabs: 1
+    KeywordReplace: []
+  - Caption: Enum
+    FileName: NewEnum
+    RAW_Text: "#ROOTNAMESPACEBEGIN#\n[System.Flags]\npublic enum #SCRIPTNAME# {\n\tNone
+      = 0,\n\tStart = 1 << 1, // 0b_0000_0001, // 1\n\tMid = 1 << 2,   // 0b_0000_0010,
+      // 2\n\tEnd = 1 << 3,   // 0b_0000_0100, // 4\n}\n#ROOTNAMESPACEEND#"
+    FileType:
+      Caption: C#
+      Extension: .cs
+    RunDefaultScriptParsing: 1
+    RunExtendedScriptParsing: 1
+    ForceSpacesToTabs: 1
+    KeywordReplace:
+    - Caption: Company
+      TargetText: '#Company#'
+      ReplacementText: Lynx in training
+  - Caption: Interface
+    FileName: NewInterface
+    RAW_Text: "using UnityEngine;\n\n#ROOTNAMESPACEBEGIN#\npublic Interface #SCRIPTNAME#\n{\n\t#NOTRIM#\n}\n#ROOTNAMESPACEEND#"
+    FileType:
+      Caption: C#
+      Extension: .cs
+    RunDefaultScriptParsing: 1
+    RunExtendedScriptParsing: 1
+    ForceSpacesToTabs: 1
+    KeywordReplace: []
+  - Caption: Scriptable Object
+    FileName: NewScriptableObject
+    RAW_Text: "using UnityEngine;\n\n#ROOTNAMESPACEBEGIN#\n[CreateAssetMenu(fileName
+      = \"#SCRIPTNAME#\", menuName = \"SO/#SCRIPTNAME#\")]\npublic class #SCRIPTNAME#
+      : ScriptableObject\n{\n\t#NOTRIM#\n}\n#ROOTNAMESPACEEND#"
+    FileType:
+      Caption: C#
+      Extension: .cs
+    RunDefaultScriptParsing: 1
+    RunExtendedScriptParsing: 1
+    ForceSpacesToTabs: 1
+    KeywordReplace: []
+  - Caption: Editor Window
+    FileName: NewEditorWindow
+    RAW_Text: "using UnityEditor;\n\n#ROOTNAMESPACEBEGIN#\npublic class #SCRIPTNAME#
+      : EditorWindow\n{\n\tprivate void OnGUI()\r\n\t{\r\n\t\t#NOTRIM#\n\t}\n}\n#ROOTNAMESPACEEND#"
+    FileType:
+      Caption: C#
+      Extension: .cs
+    RunDefaultScriptParsing: 1
+    RunExtendedScriptParsing: 1
+    ForceSpacesToTabs: 1
+    KeywordReplace: []
+  - Caption: Empty.txt
+    FileName: Empty
+    RAW_Text: 
+    FileType:
+      Caption: txt
+      Extension: .txt
+    RunDefaultScriptParsing: 0
+    RunExtendedScriptParsing: 0
+    ForceSpacesToTabs: 0
+    KeywordReplace:
+    - Caption: Target
+      TargetText: '#NewTarget#'
+      ReplacementText: Caption
+  - Caption: JSON
+    FileName: Blank.JSON
+    RAW_Text: 
+    FileType:
+      Caption: C#
+      Extension: .cs
+    RunDefaultScriptParsing: 0
+    RunExtendedScriptParsing: 0
+    ForceSpacesToTabs: 0
+    KeywordReplace:
+    - Caption: Target
+      TargetText: '#NewTarget#'
+      ReplacementText: Caption

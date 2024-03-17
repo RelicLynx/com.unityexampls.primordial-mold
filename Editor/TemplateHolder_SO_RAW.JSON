@@ -1,0 +1,126 @@
+{
+    "Templates": [
+        {
+            "Caption": "Mono Behaviour",
+            "FileName": "NewMonoBehaviour",
+            "RAW_Text": "using UnityEngine;\n\n#ROOTNAMESPACEBEGIN#\npublic class #SCRIPTNAME# : MonoBehaviour\n{\n\t#NOTRIM#\n}\n#ROOTNAMESPACEEND#",
+            "FileType": {
+                "Caption": "C#",
+                "Extension": ".cs"
+            },
+            "RunDefaultScriptParsing": true,
+            "RunExtendedScriptParsing": true,
+            "ForceSpacesToTabs": true,
+            "KeywordReplace": []
+        },
+        {
+            "Caption": "New Class",
+            "FileName": "NewClass",
+            "RAW_Text": "#ROOTNAMESPACEBEGIN#\n\tpublic class #SCRIPTNAME#\r\n\t{\r\n\t\t#NOTRIM#\n\t}\r\n#ROOTNAMESPACEEND#",
+            "FileType": {
+                "Caption": "C#",
+                "Extension": ".cs"
+            },
+            "RunDefaultScriptParsing": true,
+            "RunExtendedScriptParsing": true,
+            "ForceSpacesToTabs": true,
+            "KeywordReplace": []
+        },
+        {
+            "Caption": "Enum",
+            "FileName": "NewEnum",
+            "RAW_Text": "#ROOTNAMESPACEBEGIN#\n[System.Flags]\npublic enum #SCRIPTNAME# {\n\tNone = 0,\n\tStart = 1 << 1, // 0b_0000_0001, // 1\n\tMid = 1 << 2,   // 0b_0000_0010, // 2\n\tEnd = 1 << 3,   // 0b_0000_0100, // 4\n}\n#ROOTNAMESPACEEND#",
+            "FileType": {
+                "Caption": "C#",
+                "Extension": ".cs"
+            },
+            "RunDefaultScriptParsing": true,
+            "RunExtendedScriptParsing": true,
+            "ForceSpacesToTabs": true,
+            "KeywordReplace": [
+                {
+                    "Caption": "Company",
+                    "TargetText": "#Company#",
+                    "ReplacementText": "Lynx in training"
+                }
+            ]
+        },
+        {
+            "Caption": "Interface",
+            "FileName": "NewInterface",
+            "RAW_Text": "using UnityEngine;\n\n#ROOTNAMESPACEBEGIN#\npublic Interface #SCRIPTNAME#\n{\n\t#NOTRIM#\n}\n#ROOTNAMESPACEEND#",
+            "FileType": {
+                "Caption": "C#",
+                "Extension": ".cs"
+            },
+            "RunDefaultScriptParsing": true,
+            "RunExtendedScriptParsing": true,
+            "ForceSpacesToTabs": true,
+            "KeywordReplace": []
+        },
+        {
+            "Caption": "Scriptable Object",
+            "FileName": "NewScriptableObject",
+            "RAW_Text": "using UnityEngine;\n\n#ROOTNAMESPACEBEGIN#\n[CreateAssetMenu(fileName = \"#SCRIPTNAME#\", menuName = \"SO/#SCRIPTNAME#\")]\npublic class #SCRIPTNAME# : ScriptableObject\n{\n\t#NOTRIM#\n}\n#ROOTNAMESPACEEND#",
+            "FileType": {
+                "Caption": "C#",
+                "Extension": ".cs"
+            },
+            "RunDefaultScriptParsing": true,
+            "RunExtendedScriptParsing": true,
+            "ForceSpacesToTabs": true,
+            "KeywordReplace": []
+        },
+        {
+            "Caption": "Editor Window",
+            "FileName": "NewEditorWindow",
+            "RAW_Text": "using UnityEditor;\n\n#ROOTNAMESPACEBEGIN#\npublic class #SCRIPTNAME# : EditorWindow\n{\n\tprivate void OnGUI()\r\n\t{\r\n\t\t#NOTRIM#\n\t}\n}\n#ROOTNAMESPACEEND#",
+            "FileType": {
+                "Caption": "C#",
+                "Extension": ".cs"
+            },
+            "RunDefaultScriptParsing": true,
+            "RunExtendedScriptParsing": true,
+            "ForceSpacesToTabs": true,
+            "KeywordReplace": []
+        },
+        {
+            "Caption": "Empty.txt",
+            "FileName": "Empty",
+            "RAW_Text": "",
+            "FileType": {
+                "Caption": "txt",
+                "Extension": ".txt"
+            },
+            "RunDefaultScriptParsing": false,
+            "RunExtendedScriptParsing": false,
+            "ForceSpacesToTabs": false,
+            "KeywordReplace": [
+                {
+                    "Caption": "Target",
+                    "TargetText": "#NewTarget#",
+                    "ReplacementText": "Caption"
+                }
+            ]
+        },
+        {
+            "Caption": "JSON",
+            "FileName": "Blank.JSON",
+            "RAW_Text": "",
+            "FileType": {
+                "Caption": "C#",
+                "Extension": ".cs"
+            },
+            "RunDefaultScriptParsing": false,
+            "RunExtendedScriptParsing": false,
+            "ForceSpacesToTabs": false,
+            "KeywordReplace": [
+                {
+                    "Caption": "Target",
+                    "TargetText": "#NewTarget#",
+                    "ReplacementText": "Caption"
+                }
+            ]
+        }
+    ]
+}

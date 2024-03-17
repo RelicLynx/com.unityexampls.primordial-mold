@@ -1,0 +1,22 @@
+{
+  "name": "com.unityexampls.primordial-mold",
+  "version": "1.0.1",
+  "displayName": "Primordial Mold",
+  "description": "This is an example package",
+  "unity": "2022.1",
+  "unityRelease": "0b5",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "dependencies": {
+    "com.unityexampls.quixotic-tools": "1.0.0"
+ },
+  "author": {
+    "name": "Unity",
+    "email": "unity@example.com",
+    "url": "https://www.unity3d.com"
+  },
+  "type": "tool"
+}
